@@ -6,6 +6,7 @@
 :root {
     --Amarillo-Principal: #f5cb00;
     --Amarillo-Secundario: #e9c919;
+    --Gris: #e6e6e6;
 }
 
 .header{
@@ -28,11 +29,12 @@
     display: flex;
     justify-content: flex-end;
     gap: 8%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section1{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
 }
 
@@ -40,8 +42,9 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 5%;
     img{
         width: 70%;
     }
@@ -51,7 +54,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     .text_meeting_1{
         width: 80%;
         height: 70%;
@@ -62,12 +65,40 @@
         gap: 5%;
     }
     h1{
-        width: 45%;
-        font-size: 50px
+        width: 35%;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Oswald', sans-serif;
     }p{
         width: 60%;
         font-size: 20px;
     }button{
         padding: 5px 20px 5px 20px;
+    }
+}
+
+.section2 {
+    position: absolute;
+    left: 50%;
+    width: 65%;
+    transform: translate(-50%, -50%);
+    background: rgb(230, 230, 230);
+    padding: 20px 40px;
+    z-index: 10;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    height: 45%;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-family: 'Oswald', sans-serif;
+        color: rgb(245, 203, 0);
+        font-weight: 500;
+        font-size: 50px;
+        width: 30%;
+    }a{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
     }
 }
