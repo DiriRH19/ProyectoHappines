@@ -204,6 +204,8 @@
                     justify-content: space-evenly;
                     h1{
                         font-size: 70px;
+                        color: var(--Amarillo-Principal);
+                        font-family: 'Oswald', sans-serif;
                     }p{
                         width: 75%;
                         font-size: 20px;
@@ -232,17 +234,22 @@
     justify-content: center;
     text-align: center;
     gap: 2%;
-    h1{
+    .text_part5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }h1{
         color: #e9c919;
         font-size: 50px;
+        font-family: 'Oswald', sans-serif;
     }p{
         color: white;
-        width: 50%;
+        width: 52%;
         font-size: 20px;
     }button{
         background-color: var(--Amarillo-Principal);
         border: none;
-        padding: 10px 22px 10px 22px;
+        padding: 10px 30px 10px 30px;
     }
 }
 
@@ -250,4 +257,78 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    .first_part6{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }.second_part6{
+        width: 40%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        .second_part6_1{
+            width: 55%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            h1{
+                font-size: 50px;
+                font-family: 'Oswald', sans-serif;
+            }p{
+                font-size: 18px;
+            }button{
+                background-color: var(--Amarillo-Principal);
+                border: none;
+                padding: 10px 30px 10px 30px;
+            }
+        }
+    }
+}
+
+.section7{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: var(--Gris);
+    .first_part7{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .first_part7_1{
+            width: 80%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            h1{
+                width: 70%;
+                line-height: 95%;
+                font-size: 70px;
+                font-family: 'Oswald', sans-serif;
+            }p{
+                width: 72%;
+                font-size: 18px;
+                text-align: justify;
+            }button{
+                background-color: var(--Amarillo-Principal);
+                border: none;
+                padding: 10px 30px 10px 30px;
+            }
+        }
+    }.second_part7{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .img_second_part7{
+
+        }
+    }
 }
